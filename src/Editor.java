@@ -7,7 +7,9 @@
 
 
 import javax.swing.ImageIcon;
-        import java.awt.*;
+import javax.swing.JColorChooser;
+
+import java.awt.*;
         import java.io.BufferedReader;
         import java.io.File;
         import java.io.FileNotFoundException;
@@ -19,6 +21,8 @@ import javax.swing.ImageIcon;
         import java.util.logging.Logger;
         import javax.swing.JFileChooser;
         import javax.swing.JOptionPane;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /**
  *
@@ -70,9 +74,21 @@ public class Editor extends javax.swing.JFrame {
         bulButton = new javax.swing.JButton();
         seceneklerpanel = new javax.swing.JPanel();
         yazitipi = new javax.swing.JButton();
-        sozcukkaydirButton = new javax.swing.JButton();
-        satirnumaraButton = new javax.swing.JButton();
-        otogirintiButton = new javax.swing.JButton();
+        background = new javax.swing.JButton();
+        foregrondButton = new javax.swing.JButton();
+        yaziboyutButton = new javax.swing.JButton();
+        yaziboyutButton.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        	Font defaultFont=textarea.getFont();
+        	
+        	String input=JOptionPane.showInputDialog("Font boyutu giriniz");
+        	int in=Integer.parseInt(input);
+       
+        	Font myFont = new Font(defaultFont.getFontName(), Font.BOLD,in);
+        	textarea.setFont(myFont);
+
+        	}
+        });
         yardimpanel = new javax.swing.JPanel();
         hakkimizdaButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -496,27 +512,27 @@ public class Editor extends javax.swing.JFrame {
             }
         });
 
-        sozcukkaydirButton.setBackground(java.awt.Color.black);
-        sozcukkaydirButton.setForeground(new java.awt.Color(234, 222, 222));
-        sozcukkaydirButton.setText("Sözcük Kaydır");
-        sozcukkaydirButton.addActionListener(new java.awt.event.ActionListener() {
+        background.setBackground(java.awt.Color.black);
+        background.setForeground(new java.awt.Color(234, 222, 222));
+        background.setText("Arka Plan");
+        background.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sozcukkaydirButtonActionPerformed(evt);
+                backgroundButtonActionPerformed(evt);
             }
         });
 
-        satirnumaraButton.setBackground(java.awt.Color.black);
-        satirnumaraButton.setForeground(new java.awt.Color(234, 222, 222));
-        satirnumaraButton.setText("Satır Numara");
-        satirnumaraButton.addActionListener(new java.awt.event.ActionListener() {
+        foregrondButton.setBackground(java.awt.Color.black);
+        foregrondButton.setForeground(new java.awt.Color(234, 222, 222));
+        foregrondButton.setText("Yazı rengi");
+        foregrondButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                satirnumaraButtonActionPerformed(evt);
+                foregrondButtonActionPerformed(evt);
             }
         });
 
-        otogirintiButton.setBackground(java.awt.Color.black);
-        otogirintiButton.setForeground(new java.awt.Color(234, 222, 222));
-        otogirintiButton.setText("Oto Girinti");
+        yaziboyutButton.setBackground(java.awt.Color.black);
+        yaziboyutButton.setForeground(new java.awt.Color(234, 222, 222));
+        yaziboyutButton.setText("Yazı Boyutu");
 
         javax.swing.GroupLayout seceneklerpanelLayout = new javax.swing.GroupLayout(seceneklerpanel);
         seceneklerpanel.setLayout(seceneklerpanelLayout);
@@ -525,9 +541,9 @@ public class Editor extends javax.swing.JFrame {
                         .addGroup(seceneklerpanelLayout.createSequentialGroup()
                                 .addGroup(seceneklerpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(yazitipi)
-                                        .addComponent(sozcukkaydirButton)
-                                        .addComponent(satirnumaraButton)
-                                        .addComponent(otogirintiButton))
+                                        .addComponent(background)
+                                        .addComponent(foregrondButton)
+                                        .addComponent(yaziboyutButton))
                                 .addGap(0, 14, Short.MAX_VALUE))
         );
         seceneklerpanelLayout.setVerticalGroup(
@@ -535,11 +551,11 @@ public class Editor extends javax.swing.JFrame {
                         .addGroup(seceneklerpanelLayout.createSequentialGroup()
                                 .addComponent(yazitipi)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(sozcukkaydirButton)
+                                .addComponent(background)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(satirnumaraButton)
+                                .addComponent(foregrondButton)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(otogirintiButton)
+                                .addComponent(yaziboyutButton)
                                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -651,7 +667,8 @@ public class Editor extends javax.swing.JFrame {
     }
 
     private void silButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+        
+    	textarea.setText("");
     }
 
     private void duzenlebuttonMouseEntered(java.awt.event.MouseEvent evt) {
@@ -704,12 +721,15 @@ public class Editor extends javax.swing.JFrame {
         arapanel.setSize(0,0);
     }
 
-    private void sozcukkaydirButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+    private void backgroundButtonActionPerformed(java.awt.event.ActionEvent evt) {
+    	Color newColor = JColorChooser.showDialog(null, "Arkaplan rengi seçin", Color.RED);
+    	textarea.setBackground(newColor);
     }
 
-    private void satirnumaraButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
+    private void foregrondButtonActionPerformed(java.awt.event.ActionEvent evt) {
+       
+    	Color newColor=JColorChooser.showDialog(this,"Yazı rengi seçin",Color.black);
+    	textarea.setForeground(newColor);
     }
 
     private void seceneklerbuttonMouseEntered(java.awt.event.MouseEvent evt) {
@@ -834,6 +854,18 @@ public class Editor extends javax.swing.JFrame {
     }
 
     private void yazitipiActionPerformed(java.awt.event.ActionEvent evt) {
+    
+  	  String fonts[] = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+
+    	String input=(String)JOptionPane.showInputDialog(this,"Seç","Custumize",JOptionPane.QUESTION_MESSAGE,null,fonts,null);
+    	System.out.println(input);
+
+    		    for ( int i = 0; i < fonts.length; i++ )
+    		    {
+    		    	if(input==fonts[i]) {
+    		    		textarea.setFont(new Font(input,textarea.getFont().getStyle(),textarea.getFont().getSize()));
+    		    	}
+    		    }
     }
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {
@@ -851,11 +883,7 @@ public class Editor extends javax.swing.JFrame {
         Cursor cursor=new Cursor(Cursor.DEFAULT_CURSOR);
         editor.textarea.setCursor(cursor);
         editor.setTitle("Başlıksız Dosya");
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
+
 
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -873,10 +901,7 @@ public class Editor extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Editor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
+ 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Editor().setVisible(true);
@@ -884,7 +909,6 @@ public class Editor extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify
     private javax.swing.JButton acbutton;
     private javax.swing.JButton arabutton;
     private javax.swing.JPanel arapanel;
@@ -906,13 +930,13 @@ public class Editor extends javax.swing.JFrame {
     private javax.swing.JButton kesButton;
     private javax.swing.JButton kopyalaButton;
     private javax.swing.JButton oncekiButton;
-    private javax.swing.JButton otogirintiButton;
-    private javax.swing.JButton satirnumaraButton;
+    private javax.swing.JButton yaziboyutButton;
+    private javax.swing.JButton foregrondButton;
     private javax.swing.JButton seceneklerbutton;
     private javax.swing.JPanel seceneklerpanel;
     private javax.swing.JButton silButton;
     private javax.swing.JButton sonrakiButton;
-    private javax.swing.JButton sozcukkaydirButton;
+    private javax.swing.JButton background;
     private javax.swing.JTextArea textarea;
     private javax.swing.JButton tumunusec;
     private javax.swing.JButton yapistirButton;

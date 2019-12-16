@@ -1,18 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0c17f18-cd9d-4fe4-aa3f-143adaf33b3c" name="Default Changelist" comment="" />
+    <list default="true" id="f0c17f18-cd9d-4fe4-aa3f-143adaf33b3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Loading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Loading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/LogoEkrani.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/LogoEkrani.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Run$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA Note/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LICA Note/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/AnaPencere.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Loading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/LogoEkrani.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Run$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/images/gse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/images/lica344x295.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/images/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LICA_Note/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editor.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TN9G9XOww9lyYCCVH1Szr4kdFm" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GSEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -26,7 +126,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Editor">
+    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Editor" />
+      <module name="LICA Note" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Run" />
       <module name="LICA Note" />
@@ -36,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Editor" />
         <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
@@ -56,5 +164,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
